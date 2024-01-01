@@ -94,10 +94,23 @@ p{
 } */
 
 .Services {
-    grid-column-start: inherit;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
 }
 
-.logo, .LandImg {
-    clear: both;
-  }
+
+.photo{
+    width: 400px;
+    text-align: start;
+}
+
+.photo img{
+max-width: 100%;
+
+}
+
+.photo >img{
+    margin: 10px;
+}
