@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.LandImg img{
+    display: flex;
+    min-width: 100vw;
+}
+
+.LandImg img{
+    position: relative;
+    overflow: hidden;
+}
+
+.logo{
+    position: relative;
+    display: flex;
+}
+.logo img{
+    width: 80px;
+
+}
+nav{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+nav a{
+    color: white;
+    font-size: 16px;
+}
+.call{
+    border: 5px;
+    border-radius: 5px;
+    border-color: white solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.overlaytext{
+    display:grid;
+    align-items:center;
+    position: absolute;
+    color: white;
+    margin-top: 300px;
+    margin-left: 500px;
+    text-align:center;
+    justify-items: center;
+}
+
+.getstarted{
+    color: white;
+    border: 5px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 10px;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+h1{
+font-size: 117px;
+}
+h3{
+    font-size: 50px;
+}
+p{
+ font-size: 16px;
+}
+
+.Servicestitle > h1{
+    font-size: 32px;
+    margin: 30px;
+    justify-content: center;
+    text-align: center;
+}
+/* .Servicestitle > div{
+    border: 2px;
+    border-color: black;
+    margin-top: 10px;
+    justify-content: center;
+} */
+
+.Services {
+    grid-column-start: inherit;
+    text-align: center;
+}
+
+.logo, .LandImg {
+    clear: both;
+  }
