@@ -53,11 +53,16 @@ nav a{
 }
 
 
-#calls{
+#call{
     border: 1px white solid;
     border-radius: 5px;
     padding: 10px 20px;
 }
+
+#call:hover {
+    color: #000;
+    background-color: aliceblue;
+  }
 
 #overlaytext{
     margin-top: 130px;
